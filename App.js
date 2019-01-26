@@ -10,6 +10,7 @@ import { setLocalNotification } from './utils/helpers'
 class App extends Component {
 
   componentDidMount() {
+    // new feature
     setLocalNotification()
   }
 
